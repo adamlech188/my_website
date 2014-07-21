@@ -1,34 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<DOCTYPE! html> 
+<html>
 <head>
     <title>Adam Lech</title>
- <link rel="stylesheet" type="text/css" href="mystyle.css"/> 
+	<meta name="author" content="Adam Lech" /> 
+	<meta name="description" content="Basic information about Adam Lech"/> 
+    <meta name="keyword" content = "Adam Lech"/> 
+	
+	 <link href="./bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet"> 
+	<link href="./bootstrap-3.2.0-dist/css/amelia-theme.min.css" rel="stylesheet"> 
+	<link href ="./bootstrap-3.2.0-dist/css/mysite.css" rel="stylesheet"> 
+	
 </head>
 
 <body>
-    <div id="doc">
-    <div id="header">
-        <a href="index.html"> Adam Lech </a>
-    </div>
-    <div id="topnavig">
-        
-        <ul>
-            <li><a href="http://www.adamlech.info">Home </a></li>
-            <li><a href="resume.html">Resume </a></li>
-            <li><a href="coursework.html">Coursework</a></li>
-            <li><a href="services.html">Projects</a></li>
-            <li><a href="interests.html">Interests</a></li>
+    <div id="doc" >
+   
+    <header id="topnavig" class="container">
+	   
+		
+        <div id="menu" class="navbar navbar-default navbar-fixed-top" > 
+			<div id="header" class="navbar-header">
+				<a href="mysite.html"  ><h1 style="padding-left:15px">Adam Lech </h1></a>
+				
+				<div id="menu" class="btn btn-success navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="glyphicon glyphicon-chevron-down"><span></div>
+			</div>
+		<div class="navbar-collapse collapse" style="padding-right:15px"> 
+			<ul style="font-size:24px" class="nav navbar-nav navbar-right" >
+				<li class="nav"><a href="mysite.html">Home </a></li>
+				<li class="nav active"><a href="resume.html">Resume</a></li>
+				
+				<li class="nav"><a href="projects.html">Projects</a></li>
+				<li class="nav"><a href="interests.html">Interests</a></li>
+			</ul> 
+		 </div>
+		
+		</div> 
+    </header>
+        <section id="body" class="container">
+	
+	
+		<div class="row visible-md visible-lg">
+		
+		</div>
+		  <br>
+			<br>
+        <section id ="page" class="col-md-8 col-sm-6 col-xs-12" >
+			<div class="page-header"> 
+		
+            <h1 > Resume</h1>
+			</div> 
             
-             </ul>
-    </div>
-	  <div id="main">
-	     <div id ="page" >
-      
-       
-            <h1 class="page-title"> <a href="resume.pdf" target="_blank">Resume</a></h1>
-            
-            <p><h3>EDUCATION</h3>
+			<h3>EDUCATION</h3>
              <b>B.S. Computer Science, Mathematics minor</b>, May 2014 </br>
         Virginia Polytechnic Institute and State University, Blacksburg, VA </br>
         <b>GPA:</b> 3.36(overall)
@@ -110,27 +132,33 @@
 	
 	
         </ul>
-        <p> <a href="resume.pdf" target="_blank">PDF version</a></p>
-          <!--  <object application/pdf" data="resume.pdf" " width="100%" height="90%" ></object > -->
-          
- 
 
-            
-        </div>
-        <div id="sidebar" >
-            <a href="index.html" style="text-decoration:none; color:white"><img src="me1.jpg" alt="Me content at the Christmas Dinner"  title="Adam Lech content at the Christmas Dinner"></a>
+		
+		
+		</section>
+
+          
+        
+        <section id="sidebar" class="col-md-2 col-md-offset-1 col-sm-6 col-xs-0" >
+            <img src="me2.jpg"  class="img-thumbnail">
             <h3>Contact information</h3>
             <dl>
                 <dt ><b>Email:</b></dt>
                 <dd>
-                  <a href="mailto:adaml8@vt.edu" title="email Adam Lech(adaml8@vt.edu)" style="text-decoration: none; color: #ff6600"> adaml8@vt.edu</a> 
+                  <a href="mailto:owenfan1646@gmail" title="email Adam Lech(adaml8@vt.edu)" style="text-decoration: none; color: #ff6600"> owenfan1646@gmail.com</a> 
                 </dd>
             </dl>
+        </section>
+		
+		</section> 
+	
         </div>
-        </div>
-    </div>
+
+
         
     
-    
+    	<script src="JQuery/jquery-1.11.1.min.js"> </script> 
+		<script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script> 
+		<script src="site.js"></script> 
 </body>
 </html>
