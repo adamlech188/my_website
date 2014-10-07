@@ -5,7 +5,11 @@
 	<meta name="author" content="Adam Lech" /> 
 	<meta name="description" content="Basic information about Adam Lech"/> 
     <meta name="keyword" content = "Adam Lech"/> 
-	
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+	<meta name="MobileOptimized" content="width" />
+	 <meta name="HandheldFriendly" content="true" />
+	 <meta name="mobile-web-app-capable" content="yes">
+	 <meta name="apple-mobile-web-app-capable" content="yes">
 	 <link href="./bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet"> 
 	<link href="./bootstrap-3.2.0-dist/css/readable-theme.min.css" rel="stylesheet"> 
 	<link href ="./bootstrap-3.2.0-dist/css/mysite.css" rel="stylesheet"> 
@@ -20,13 +24,13 @@
 		
         <div id="menu" class="navbar navbar-default navbar-fixed-top" > 
 			<div id="header" class="navbar-header">
-				<a href="mysite.html"  ><h1 style="padding-left:15px">Adam Lech </h1></a>
+				<a href="index.html"  ><h1 style="padding-left:15px">Adam Lech </h1></a>
 				
-				<div id="menu" class="btn btn-success navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="glyphicon glyphicon-chevron-down"><span></div>
+				<div id="menu" class="btn btn-success navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></div>
 			</div>
 		<div class="navbar-collapse collapse" style="padding-right:15px"> 
 			<ul style="font-size:24px" class="nav navbar-nav navbar-right" >
-				<li class="nav"><a href="mysite.html">Home </a></li>
+				<li class="nav"><a href="index.html">Home </a></li>
 				<li class="nav"><a href="resume.html">Resume</a></li>
 				
 				<li class="nav"><a href="projects.html">Projects</a></li>
@@ -38,54 +42,69 @@
     </header>
         <section id="body" class="container">
 	
-	
-	
-		  <br>
-			<br>
+	      <div class="row visible-md visible-lg">
+		
+		</div>
+		 
+	   <br>
+	   <br>
+		  
         <section id ="page" class="col-md-8 col-sm-6 col-xs-12" >
+				<div class="page-header"> 
 		
+            <h1 >Interests</h1>
+			</div> 
 		
-                       
-            
-           <div    id="videobox" style= "padding-bottom:30%" >
+               
+           <div  class="row videobox"    >
+		   	 <div class="videodescription"  >
+			 <p > This is very intereseting documentary on the history of 
+			 <a href="www.unix.org" target="_blank"> Unix </a> and pioneering work done by <a href="http://en.wikipedia.org/wiki/Dennis_Ritchie">Dennis Ritchie </a> and 
+			 <a href="http://en.wikipedia.org/wiki/Ken_Thompson">Ken Thompson</a>.</p>
+			 </div>
+		   <div class="col-md-6 embed-responsive embed-responsive-16by9">
             <object  type="application/x-shockwave-flash" align="left"
                     data = "http://www.youtube.com/v/tc4ROCJYbm0""
                     width ="250" height ="250">
                 <param name="UNIX" value="http://www.youtube.com/v/tc4ROCJYbm">
                     
             </object>
-			 <div id="videodescription" style="margin-left:40%" ">
-			 <p > This is very intereseting documentary on the history of 
-			 <a href="www.unix.org" target="_blank"> Unix </a> and pioneering work done by <a href="http://en.wikipedia.org/wiki/Dennis_Ritchie">Dennis Ritchie </a> and 
-			 <a href="http://en.wikipedia.org/wiki/Ken_Thompson">Ken Thompson</a>.</p>
-			 </div>
+			</div>
+		
             </div>
+			<hr>
      
-		      <div    id="videobox" style= "padding-bottom:30%" >
+		      <div class="row videobox"     >
+			   <div class="videodescription" >
+			 <p ><a href="http://www.stroustrup.com/"target="_blank">Bjarn Stroustrup</a> discusses why he created C++.</p>
+			 </div>
+			 <div class="col-md-6 embed-responsive embed-responsive-16by9">
             <object  type="application/x-shockwave-flash" align="left"
                     data = "http://www.youtube.com/v/JBjjnqG0BP8""
                     width ="250" height ="250">
                 <param name="Bjarn Stroustrup" value="http://www.youtube.com/v/JBjjnqG0BP8">
                     
             </object>
-			 <div id="videodescription" style="margin-left:40%">
-			 <p ><a href="http://www.stroustrup.com/"target="_blank">Bjarn Stroustrup</a> discusses why he created C++.</p>
-			 </div>
+			</div>
             </div>
-			 <br> 
+			 <hr> 
 			 
-             <div    id="videobox" style= "padding-bottom:30%" >
+             <div class="row videobox"    >
+			 	 <div class="videodescription"  >
+			 <p >This is little known movie about one of the greatest logician of all time - 
+			 <a href="http://en.wikipedia.org/wiki/Kurt_G%C3%B6del" target="_blank"> Kurt G&#246del</a>.</p>
+			 </div>
+			   <div class="col-md-6 embed-responsive embed-responsive-16by9">
             <object  type="application/x-shockwave-flash" align="left"
                     data = "http://www.youtube.com/v/B2DY8WvSOLU"
                     width ="250" height ="250">
                 <param name="Kurt GÃ¶del" value="http://www.youtube.com/v/B2DY8WvSOLU">
                     
             </object>
-			 <div id="videodescription" style="margin-left:40%">
-			 <p >This is little known movie about one of the greates logician of all time - 
-			 <a href="http://en.wikipedia.org/wiki/Kurt_G%C3%B6del" target="_blank"> Kurt GÃ¶del</a>.</p>
-			 </div>
+			</div> 
+		
             </div>
+			<hr>
 			
 	
 		
@@ -94,13 +113,13 @@
 
           
         
-        <section id="sidebar" class="col-md-2 col-md-offset-1 col-sm-6 col-xs-0" >
+        <section id="sidebar" class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6" >
             <img src="me2.jpg"  class="img-thumbnail">
             <h3>Contact information</h3>
             <dl>
                 <dt ><b>Email:</b></dt>
                 <dd>
-                  <a href="mailto:owenfan1646@gmail" title="email Adam Lech(adaml8@vt.edu)" style="text-decoration: none; color: #ff6600"> owenfan1646@gmail.com</a> 
+                  <a href="mailto:owenfan1646@gmail" title="email Adam Lech(adaml8@vt.edu)" style="text-decoration: none; color: #ff6600"> adamlech1988@gmail.com</a> 
                 </dd>
             </dl>
         </section>
@@ -113,7 +132,7 @@
         
     
     	<script src="JQuery/jquery-1.11.1.min.js"> </script> 
-		<script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script> 
+	<script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script> 
 		<script src="site.js"></script> 
 </body>
 </html>
